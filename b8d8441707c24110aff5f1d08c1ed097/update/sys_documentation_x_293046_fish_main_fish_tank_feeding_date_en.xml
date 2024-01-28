@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="feeding_date" label="Feeding Date" language="en" table="x_293046_fish_main_fish_tank">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>feeding_date</element>
+            <help/>
+            <hint/>
+            <label>Feeding Date</label>
+            <language>en</language>
+            <name>x_293046_fish_main_fish_tank</name>
+            <plural>Feeding Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-10 08:58:21</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Feeding Date</sys_name>
+            <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+            <sys_update_name>sys_documentation_x_293046_fish_main_fish_tank_feeding_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-10 08:58:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

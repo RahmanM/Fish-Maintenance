@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="05ba0c9b07c24110aff5f1d08c1ed0da" extends="task" label="Fish Tank" max_length="40" name="x_293046_fish_main_fish_tank" text_index="true" type="collection">
+        <element label="Feeding Date" max_length="40" name="feeding_date" type="glide_date"/>
+        <element display="true" label="Name" max_length="100" name="name" type="string"/>
+        <element label="Next Water Replacing Date" mandatory="true" max_length="40" name="next_water_replacing_date" type="glide_date"/>
+        <element attributes="pdf_cell_type=image" label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Maintenance Required" value="Maintenance Required"/>
+                <element inactive_on_update="false" label="Water change required" sequence="100" value="water_change_required"/>
+                <element inactive_on_update="false" label="Water changed" sequence="100" value="water_changed"/>
+            </choice>
+        </element>
+    </element>
+</database>

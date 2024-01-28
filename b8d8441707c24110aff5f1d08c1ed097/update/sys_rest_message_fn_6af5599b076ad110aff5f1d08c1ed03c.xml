@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{&#13;
+	"Messages": [&#13;
+		{&#13;
+			"From": {&#13;
+				"Email": "${from_email}",&#13;
+				"Name": "RXM"&#13;
+			},&#13;
+			"To": ${to_emails},&#13;
+			"Subject": "Fish maintenance",&#13;
+			"TextPart": "",&#13;
+			"HTMLPart": "${message}"&#13;
+		}&#13;
+	]&#13;
+}</content>
+        <function_name>Send Email</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>Mailjet Email [ Send Email ]</qualified_name>
+        <rest_endpoint>https://api.mailjet.com/v3.1/send</rest_endpoint>
+        <rest_message display_value="Mailjet Email">cad5519b076ad110aff5f1d08c1ed069</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:07:05</sys_created_on>
+        <sys_id>6af5599b076ad110aff5f1d08c1ed03c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Send Email</sys_name>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name>sys_rest_message_fn_6af5599b076ad110aff5f1d08c1ed03c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:09:24</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

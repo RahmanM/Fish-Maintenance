@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dfe94c1b07c24110aff5f1d08c1ed0ce" extends="task" label="Fish" max_length="40" name="x_293046_fish_main_fish" text_index="true" type="collection">
+        <element label="Age in days since adoption" max_length="40" name="age_in_days_since_adoption" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Adopted" max_length="40" name="date_adopted" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date vanished" max_length="40" name="date_vanished" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Next Feeding Date" max_length="40" name="next_feeding_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Next Water Date" max_length="40" name="next_water_date" type="glide_date"/>
+        <element label="Owner" max_length="32" name="owner" reference="sys_user" type="reference"/>
+        <element label="Photo" max_length="65536" name="photo" type="user_image"/>
+        <element attributes="encode_utf8=false" label="Tank" max_length="32" name="tank" reference="x_293046_fish_main_fish_tank" type="reference"/>
+    </element>
+</database>

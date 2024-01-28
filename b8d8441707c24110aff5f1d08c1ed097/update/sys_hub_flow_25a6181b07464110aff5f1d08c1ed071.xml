@@ -1,0 +1,1603 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>fish_tank_maintenance_flow</internal_name>
+        <label_cache>[{"name":"490f6f87-f3bd-4d90-980f-3db079036866.result","label":"5 - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet➛Result","reference_display":"Result","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"18e9d9cf-aa8c-49ff-9e93-b90b3454fb39"}},{"name":"490f6f87-f3bd-4d90-980f-3db079036866.__dont_treat_as_error__","label":"5 - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"f7328e69-3ce4-41f2-9f91-05cbe0b17eef"}},{"name":"490f6f87-f3bd-4d90-980f-3db079036866.__action_status__","label":"5 - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD6a05911b336ad11060938baeafcb3087","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d6f3232b-145d-483f-9199-b91d518b7cd6"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.table_name","label":"6 - Update Record➛Fish Tank Table","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.record","label":"6 - Update Record➛Fish Tank Record","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed4b69ff-fc5b-43bb-b2ed-3f97a2a13446.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed4b69ff-fc5b-43bb-b2ed-3f97a2a13446.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"707c60e3-b525-470d-a3b0-4c6697be4ec6.table_name","label":"3 - Make a decision➛Choice Table","reference":"sys_choice","reference_display":"Choice","type":"table_name","base_type":"table_name","attributes":{}},{"name":"707c60e3-b525-470d-a3b0-4c6697be4ec6.answer","label":"3 - Make a decision➛Choice Record","reference":"sys_choice","reference_display":"Choice","type":"reference","base_type":"reference","attributes":{}},{"name":"5cd9655d-4531-4b6b-b5f0-52be0d2fc689.table_name","label":"2 - Make a decision➛Choice Table","reference":"sys_choice","reference_display":"Choice","type":"table_name","base_type":"table_name","attributes":{}},{"name":"5cd9655d-4531-4b6b-b5f0-52be0d2fc689.answer","label":"2 - Make a decision➛Choice Record","reference":"sys_choice","reference_display":"Choice","type":"reference","base_type":"reference","attributes":{}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.Table","label":"1 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.Record","label":"1 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.Records","label":"1 - Look Up Records➛Fish Tank Records","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.Table","label":"1 - Look Up Records➛Fish Tank Table","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76ebf557-1621-447d-9891-6cd9aa5a5d1a.item","label":"2 - For Each➛Fish Tank Record","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"76ebf557-1621-447d-9891-6cd9aa5a5d1a.item.next_water_replacing_date","label":"2 - For Each➛Fish Tank Record➛Next Water Replacing Date","reference":"","reference_display":"Next Water Replacing Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_293046_fish_main_fish_tank","column_name":"next_water_replacing_date"},{"name":"Daily_1.run_start_date_time","label":"Trigger - Run Daily ➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"f0fe475c-a9f9-41b8-8f6f-ea1421e356c8.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0fe475c-a9f9-41b8-8f6f-ea1421e356c8.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>1f6c3c6b07020510aff5f1d08c1ed0e3</master_snapshot>
+        <name>Fish Tank Maintenance Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>587c7c6b07020510aff5f1d08c1ed0b9</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:47:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>25a6181b07464110aff5f1d08c1ed071</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name>Fish Tank Maintenance Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name>sys_hub_flow_25a6181b07464110aff5f1d08c1ed071</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_variable_value action="delete_multiple" query="document_key=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2022-03-11 07:11:27</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>587c7c6b07020510aff5f1d08c1ed0b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 09:07:52</sys_updated_on>
+        <time>1970-01-01 00:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:587c7c6b07020510aff5f1d08c1ed0b9^sys_idNOT IN507c7c6b07020510aff5f1d08c1ed0ba"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:587c7c6b07020510aff5f1d08c1ed0b9</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Rahman Mahmoodi (admin)">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-03-11 07:11:27</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('587c7c6b07020510aff5f1d08c1ed0b9');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:27</sys_created_on>
+        <sys_id>507c7c6b07020510aff5f1d08c1ed0ba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 09:07:52</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">587c7c6b07020510aff5f1d08c1ed0b9</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=25a6181b07464110aff5f1d08c1ed071^sys_idNOT INce27185b07464110aff5f1d08c1ed0ac"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:50:04</sys_created_on>
+        <sys_id>ce27185b07464110aff5f1d08c1ed0ac</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:29</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ce27185b07464110aff5f1d08c1ed0ac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ce27185b07464110aff5f1d08c1ed0ac</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:50:04</sys_created_on>
+        <sys_id>8627185b07464110aff5f1d08c1ed0ae</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 09:07:25</sys_updated_on>
+        <value>1970-01-01 10:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=ce27185b07464110aff5f1d08c1ed0ac"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=25a6181b07464110aff5f1d08c1ed071^sys_idNOT IN21a6181b07464110aff5f1d08c1ed073"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>25a6181b07464110aff5f1d08c1ed071</id>
+        <name>Fish Tank Maintenance Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:47:51</sys_created_on>
+        <sys_id>21a6181b07464110aff5f1d08c1ed073</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 09:47:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=21a6181b07464110aff5f1d08c1ed073"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=25a6181b07464110aff5f1d08c1ed071^sys_idNOT IN3e63d6bb07820110aff5f1d08c1ed081,7028541f07464110aff5f1d08c1ed076,dc48551307aad110aff5f1d08c1ed0a8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <order>6</order>
+        <parent_ui_id>0db877dd-808b-41ee-b76d-cf6418a56303</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>3e63d6bb07820110aff5f1d08c1ed081</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <ui_id>c4d6dd38-409e-427c-bdfb-5cd10a23e01e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e63d6bb07820110aff5f1d08c1ed081"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e63d6bb07820110aff5f1d08c1ed081</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:09</sys_created_on>
+        <sys_id>36b896f707c20110aff5f1d08c1ed05a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:09</sys_updated_on>
+        <value>x_293046_fish_main_fish_tank</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e63d6bb07820110aff5f1d08c1ed081</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>3e63d6bb07820110aff5f1d08c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:09:56</sys_updated_on>
+        <value>x_293046_fish_main_fish_tank</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e63d6bb07820110aff5f1d08c1ed081</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>7263d6bb07820110aff5f1d08c1ed085</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:09:56</sys_updated_on>
+        <value>next_water_replacing_date=fd-scripted^work_notes=Notification sent and next replacing date is set</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3e63d6bb07820110aff5f1d08c1ed081</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:09</sys_created_on>
+        <sys_id>7ab896f707c20110aff5f1d08c1ed059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:09</sys_updated_on>
+        <value>next_water_replacing_date=fd-scripted^work_notes=Notification sent and next replacing date is set</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3e63d6bb07820110aff5f1d08c1ed081"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3e63d6bb07820110aff5f1d08c1ed081</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:09</sys_created_on>
+        <sys_id>36b896f707c20110aff5f1d08c1ed059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{76ebf557-1621-447d-9891-6cd9aa5a5d1a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3e63d6bb07820110aff5f1d08c1ed081</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>3e63d6bb07820110aff5f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:09:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{76ebf557-1621-447d-9891-6cd9aa5a5d1a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3e63d6bb07820110aff5f1d08c1ed081</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:09</sys_created_on>
+        <sys_id>fab896f707c20110aff5f1d08c1ed058</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3e63d6bb07820110aff5f1d08c1ed081</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>f263d6bb07820110aff5f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:09:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3e63d6bb07820110aff5f1d08c1ed081</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:09</sys_created_on>
+        <sys_id>f6b896f707c20110aff5f1d08c1ed059</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3e63d6bb07820110aff5f1d08c1ed081</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>fe63d6bb07820110aff5f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:09:56</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3e63d6bb07820110aff5f1d08c1ed081^sys_idNOT INf263d6bb07820110aff5f1d08c1ed083"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>3e63d6bb07820110aff5f1d08c1ed081</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"next_water_replacing_date":{"scriptActive":true,"script":"var today \u003d global.VF_DateTimeUtilsV2.getSystemCurrentDate();\n\nvar in21Days \u003d global.VF_DateTimeUtilsV2.addDaysToDate(today, 21);\n\nreturn in21Days;\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:09:56</sys_created_on>
+        <sys_id>f263d6bb07820110aff5f1d08c1ed083</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:01</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3e63d6bb07820110aff5f1d08c1ed081"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:54:21</sys_created_on>
+        <sys_id>7028541f07464110aff5f1d08c1ed076</sys_id>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:29</sys_updated_on>
+        <ui_id>6a057283-67cd-43f5-9045-4ff8f3f46cb7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7028541f07464110aff5f1d08c1ed076"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7028541f07464110aff5f1d08c1ed076</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:18</sys_created_on>
+        <sys_id>d66cf86b07020510aff5f1d08c1ed094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:18</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="Conditions">0507ee090b30030085c083eb37673a2e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7028541f07464110aff5f1d08c1ed076</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:19</sys_created_on>
+        <sys_id>de6cf86b07020510aff5f1d08c1ed094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:19</sys_updated_on>
+        <value>x_293046_fish_main_fish_tank</value>
+        <variable display_value="Table">3807ee090b30030085c083eb37673a08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7028541f07464110aff5f1d08c1ed076</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:54:21</sys_created_on>
+        <sys_id>f028541f07464110aff5f1d08c1ed079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 09:54:21</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7028541f07464110aff5f1d08c1ed076</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:54:21</sys_created_on>
+        <sys_id>f828541f07464110aff5f1d08c1ed079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 09:54:21</sys_updated_on>
+        <value>x_293046_fish_main_fish_tank</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_d1c56ec50b30030085c083eb37673a50^id=7028541f07464110aff5f1d08c1ed076"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7028541f07464110aff5f1d08c1ed076"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7028541f07464110aff5f1d08c1ed076"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <order>5</order>
+        <parent_ui_id>0db877dd-808b-41ee-b76d-cf6418a56303</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:17:02</sys_created_on>
+        <sys_id>dc48551307aad110aff5f1d08c1ed0a8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <ui_id>490f6f87-f3bd-4d90-980f-3db079036866</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc48551307aad110aff5f1d08c1ed0a8"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc48551307aad110aff5f1d08c1ed0a8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc48551307aad110aff5f1d08c1ed0a8"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=25a6181b07464110aff5f1d08c1ed071^sys_idNOT IN08f4b06707cec110aff5f1d08c1ed095,5786746b07cec110aff5f1d08c1ed0fe,7c28541f07464110aff5f1d08c1ed07a,c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">40f4b06707cec110aff5f1d08c1ed095</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>707c60e3-b525-470d-a3b0-4c6697be4ec6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>08f4b06707cec110aff5f1d08c1ed095</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <ui_id>0db877dd-808b-41ee-b76d-cf6418a56303</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=08f4b06707cec110aff5f1d08c1ed095"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>08f4b06707cec110aff5f1d08c1ed095</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>c8f4b06707cec110aff5f1d08c1ed098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <value>ffef646b078ec110aff5f1d08c1ed011</value>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_25a6181b07464110aff5f1d08c1ed071^id=08f4b06707cec110aff5f1d08c1ed095"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_b1f542d673331300612c273ffff6a7c7^id=08f4b06707cec110aff5f1d08c1ed095"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=08f4b06707cec110aff5f1d08c1ed095"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=08f4b06707cec110aff5f1d08c1ed095"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5b86746b07cec110aff5f1d08c1ed0fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>707c60e3-b525-470d-a3b0-4c6697be4ec6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:45:42</sys_created_on>
+        <sys_id>5786746b07cec110aff5f1d08c1ed0fe</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <ui_id>951b5481-8543-4028-8b0d-36b850569429</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5786746b07cec110aff5f1d08c1ed0fe"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_25a6181b07464110aff5f1d08c1ed071^id=5786746b07cec110aff5f1d08c1ed0fe"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_b1f542d673331300612c273ffff6a7c7^id=5786746b07cec110aff5f1d08c1ed0fe"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5786746b07cec110aff5f1d08c1ed0fe"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5786746b07cec110aff5f1d08c1ed0fe"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7028541f07464110aff5f1d08c1ed07a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:54:21</sys_created_on>
+        <sys_id>7c28541f07464110aff5f1d08c1ed07a</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <ui_id>76ebf557-1621-447d-9891-6cd9aa5a5d1a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7c28541f07464110aff5f1d08c1ed07a"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_25a6181b07464110aff5f1d08c1ed071^id=7c28541f07464110aff5f1d08c1ed07a"/>
+    <sys_element_mapping action="delete_multiple" query="id=7c28541f07464110aff5f1d08c1ed07a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>7c28541f07464110aff5f1d08c1ed07a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-10 09:54:21</sys_created_on>
+        <sys_id>8128541f07464110aff5f1d08c1ed07e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-10 09:54:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{6a057283-67cd-43f5-9045-4ff8f3f46cb7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7c28541f07464110aff5f1d08c1ed07a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7c28541f07464110aff5f1d08c1ed07a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c8f4b06707cec110aff5f1d08c1ed08c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Fish Tank Maintenance">b5a070eb078ec110aff5f1d08c1ed031</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>76ebf557-1621-447d-9891-6cd9aa5a5d1a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>c4f4b06707cec110aff5f1d08c1ed08d</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:30</sys_updated_on>
+        <ui_id>707c60e3-b525-470d-a3b0-4c6697be4ec6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c4f4b06707cec110aff5f1d08c1ed08d</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>00f4b06707cec110aff5f1d08c1ed094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <value>Is water change required</value>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c4f4b06707cec110aff5f1d08c1ed08d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>04f4b06707cec110aff5f1d08c1ed093</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <value>sys_choice</value>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c4f4b06707cec110aff5f1d08c1ed08d</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>4cf4b06707cec110aff5f1d08c1ed093</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <value>b5a070eb078ec110aff5f1d08c1ed031</value>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c4f4b06707cec110aff5f1d08c1ed08d</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:45:42</sys_created_on>
+        <sys_id>5f86746b07cec110aff5f1d08c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:45:42</sys_updated_on>
+        <value>run_all</value>
+        <variable display_value="Execution Approach">8c6638af0b2313009002cab937673a3f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c4f4b06707cec110aff5f1d08c1ed08d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:45:42</sys_created_on>
+        <sys_id>9786746b07cec110aff5f1d08c1ed0f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:45:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Include Otherwise">346b30a30b6313009002cab937673a5e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>08f4b06707cec110aff5f1d08c1ed092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_label</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>80f4b06707cec110aff5f1d08c1ed093</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>ccf4b06707cec110aff5f1d08c1ed092</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>execution</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:45:42</sys_created_on>
+        <sys_id>1786746b07cec110aff5f1d08c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:45:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>include_otherwise</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:45:42</sys_created_on>
+        <sys_id>db86746b07cec110aff5f1d08c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:45:42</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_tank</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:58:23</sys_created_on>
+        <sys_id>c179fc2307020510aff5f1d08c1ed03e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:58:23</sys_updated_on>
+        <table>var__m_sys_decision_input_b5a070eb078ec110aff5f1d08c1ed031</table>
+        <value>{{76ebf557-1621-447d-9891-6cd9aa5a5d1a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_tank_sys_id</field>
+        <id>c4f4b06707cec110aff5f1d08c1ed08d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:40</sys_created_on>
+        <sys_id>0cf4b06707cec110aff5f1d08c1ed094</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:40</sys_updated_on>
+        <table>var__m_sys_decision_input_b5a070eb078ec110aff5f1d08c1ed031</table>
+        <value>{{76ebf557-1621-447d-9891-6cd9aa5a5d1a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_25a6181b07464110aff5f1d08c1ed071^id=c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c4f4b06707cec110aff5f1d08c1ed08d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=25a6181b07464110aff5f1d08c1ed071^sys_idNOT IN3fe4b06707cec110aff5f1d08c1ed064"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6492fc18-33d1-4bee-8c96-dd55fab44f3e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</model>
+        <model_id>25a6181b07464110aff5f1d08c1ed071</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_25a6181b07464110aff5f1d08c1ed071</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 06:38:39</sys_created_on>
+        <sys_id>3fe4b06707cec110aff5f1d08c1ed064</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_3fe4b06707cec110aff5f1d08c1ed064</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 06:38:39</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_25a6181b07464110aff5f1d08c1ed071"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>fish_tank_maintenance_flow</internal_name>
+        <label_cache>[{"name":"490f6f87-f3bd-4d90-980f-3db079036866.result","label":"5 - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet➛Result","reference_display":"Result","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"18e9d9cf-aa8c-49ff-9e93-b90b3454fb39"}},{"name":"490f6f87-f3bd-4d90-980f-3db079036866.__dont_treat_as_error__","label":"5 - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"f7328e69-3ce4-41f2-9f91-05cbe0b17eef"}},{"name":"490f6f87-f3bd-4d90-980f-3db079036866.__action_status__","label":"5 - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet - (VF) Send email via Mailjet➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FD6a05911b336ad11060938baeafcb3087","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d6f3232b-145d-483f-9199-b91d518b7cd6"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.__dont_treat_as_error__","label":"6 - Update Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.__action_status__","label":"6 - Update Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.table_name","label":"6 - Update Record➛Fish Tank Table","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c4d6dd38-409e-427c-bdfb-5cd10a23e01e.record","label":"6 - Update Record➛Fish Tank Record","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed4b69ff-fc5b-43bb-b2ed-3f97a2a13446.__dont_treat_as_error__","label":"5 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"ed4b69ff-fc5b-43bb-b2ed-3f97a2a13446.__action_status__","label":"5 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"707c60e3-b525-470d-a3b0-4c6697be4ec6.table_name","label":"3 - Make a decision➛Choice Table","reference":"sys_choice","reference_display":"Choice","type":"table_name","base_type":"table_name","attributes":{}},{"name":"707c60e3-b525-470d-a3b0-4c6697be4ec6.answer","label":"3 - Make a decision➛Choice Record","reference":"sys_choice","reference_display":"Choice","type":"reference","base_type":"reference","attributes":{}},{"name":"5cd9655d-4531-4b6b-b5f0-52be0d2fc689.table_name","label":"2 - Make a decision➛Choice Table","reference":"sys_choice","reference_display":"Choice","type":"table_name","base_type":"table_name","attributes":{}},{"name":"5cd9655d-4531-4b6b-b5f0-52be0d2fc689.answer","label":"2 - Make a decision➛Choice Record","reference":"sys_choice","reference_display":"Choice","type":"reference","base_type":"reference","attributes":{}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.__dont_treat_as_error__","label":"1 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.__action_status__","label":"1 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.error_message","label":"1 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.status","label":"1 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.Table","label":"1 - Look Up Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"87c162b9-a1e6-4526-b514-a792583aab6a.Record","label":"1 - Look Up Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.Records","label":"1 - Look Up Records➛Fish Tank Records","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.Table","label":"1 - Look Up Records➛Fish Tank Table","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.Count","label":"1 - Look Up Records➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.__action_status__","label":"1 - Look Up Records➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6a057283-67cd-43f5-9045-4ff8f3f46cb7.__dont_treat_as_error__","label":"1 - Look Up Records➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"76ebf557-1621-447d-9891-6cd9aa5a5d1a.item","label":"2 - For Each➛Fish Tank Record","reference":"x_293046_fish_main_fish_tank","reference_display":"Fish Tank","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"76ebf557-1621-447d-9891-6cd9aa5a5d1a.item.next_water_replacing_date","label":"2 - For Each➛Fish Tank Record➛Next Water Replacing Date","reference":"","reference_display":"Next Water Replacing Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_293046_fish_main_fish_tank","column_name":"next_water_replacing_date"},{"name":"Daily_1.run_start_date_time","label":"Trigger - Run Daily ➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"test_input_hidden":"true"}},{"name":"f0fe475c-a9f9-41b8-8f6f-ea1421e356c8.__action_status__","label":"4 - Send Notification➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f0fe475c-a9f9-41b8-8f6f-ea1421e356c8.__dont_treat_as_error__","label":"4 - Send Notification➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Fish Tank Maintenance Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Fish Tank Maintenance Flow">25a6181b07464110aff5f1d08c1ed071</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>1f6c3c6b07020510aff5f1d08c1ed0e3</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1f6c3c6b07020510aff5f1d08c1ed0e3^sys_idNOT IN087c7c6b07020510aff5f1d08c1ed041"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:25</sys_created_on>
+        <sys_id>087c7c6b07020510aff5f1d08c1ed041</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:29</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=087c7c6b07020510aff5f1d08c1ed041"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>087c7c6b07020510aff5f1d08c1ed041</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:25</sys_created_on>
+        <sys_id>847c7c6b07020510aff5f1d08c1ed042</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-21 09:07:46</sys_updated_on>
+        <value>1970-01-01 10:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=087c7c6b07020510aff5f1d08c1ed041"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1f6c3c6b07020510aff5f1d08c1ed0e3^sys_idNOT IN9f6c3c6b07020510aff5f1d08c1ed0e4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1f6c3c6b07020510aff5f1d08c1ed0e3</id>
+        <name>Fish Tank Maintenance Flow</name>
+        <sys_class_name>sys_flow_cat_variable_model</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:23</sys_created_on>
+        <sys_id>9f6c3c6b07020510aff5f1d08c1ed0e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:23</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9f6c3c6b07020510aff5f1d08c1ed0e4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1f6c3c6b07020510aff5f1d08c1ed0e3^sys_idNOT IN58c81af707c20110aff5f1d08c1ed005,9558991307aad110aff5f1d08c1ed0be,f36c7c6b07020510aff5f1d08c1ed00f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <order>6</order>
+        <parent_ui_id>0db877dd-808b-41ee-b76d-cf6418a56303</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>58c81af707c20110aff5f1d08c1ed005</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>c4d6dd38-409e-427c-bdfb-5cd10a23e01e</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=58c81af707c20110aff5f1d08c1ed005"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>58c81af707c20110aff5f1d08c1ed005</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>10c81af707c20110aff5f1d08c1ed008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:15</sys_updated_on>
+        <value>next_water_replacing_date=fd-scripted^work_notes=Notification sent and next replacing date is set</value>
+        <variable display_value="Fields">e7d270ccc3c632002841b63b12d3ae8b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>58c81af707c20110aff5f1d08c1ed005</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>d0c81af707c20110aff5f1d08c1ed008</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:15</sys_updated_on>
+        <value>x_293046_fish_main_fish_tank</value>
+        <variable display_value="Table">1fd27c8cc3c632002841b63b12d3aeb9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=58c81af707c20110aff5f1d08c1ed005"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>58c81af707c20110aff5f1d08c1ed005</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>d8c81af707c20110aff5f1d08c1ed007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value>{{76ebf557-1621-447d-9891-6cd9aa5a5d1a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>58c81af707c20110aff5f1d08c1ed005</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>18c81af707c20110aff5f1d08c1ed007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>58c81af707c20110aff5f1d08c1ed005</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>9cc81af707c20110aff5f1d08c1ed007</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58c81af707c20110aff5f1d08c1ed005^sys_idNOT IN9cc81af707c20110aff5f1d08c1ed006"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>58c81af707c20110aff5f1d08c1ed005</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"next_water_replacing_date":{"scriptActive":true,"script":"var today \u003d global.VF_DateTimeUtilsV2.getSystemCurrentDate();\n\nvar in21Days \u003d global.VF_DateTimeUtilsV2.addDaysToDate(today, 21);\n\nreturn in21Days;\n","savedValue":""}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-12 08:33:15</sys_created_on>
+        <sys_id>9cc81af707c20110aff5f1d08c1ed006</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:25</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=58c81af707c20110aff5f1d08c1ed005"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="(VF) Send email via Mailjet">6c15151b076ad110aff5f1d08c1ed038</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <order>5</order>
+        <parent_ui_id>0db877dd-808b-41ee-b76d-cf6418a56303</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:17:23</sys_created_on>
+        <sys_id>9558991307aad110aff5f1d08c1ed0be</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>490f6f87-f3bd-4d90-980f-3db079036866</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9558991307aad110aff5f1d08c1ed0be"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=9558991307aad110aff5f1d08c1ed0be"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=9558991307aad110aff5f1d08c1ed0be"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:25</sys_created_on>
+        <sys_id>f36c7c6b07020510aff5f1d08c1ed00f</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>6a057283-67cd-43f5-9045-4ff8f3f46cb7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f36c7c6b07020510aff5f1d08c1ed00f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f36c7c6b07020510aff5f1d08c1ed00f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:25</sys_created_on>
+        <sys_id>bb6c7c6b07020510aff5f1d08c1ed011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:25</sys_updated_on>
+        <value>x_293046_fish_main_fish_tank</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f36c7c6b07020510aff5f1d08c1ed00f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:25</sys_created_on>
+        <sys_id>f76c7c6b07020510aff5f1d08c1ed011</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:25</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="Conditions">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=f36c7c6b07020510aff5f1d08c1ed00f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f36c7c6b07020510aff5f1d08c1ed00f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f36c7c6b07020510aff5f1d08c1ed00f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1f6c3c6b07020510aff5f1d08c1ed0e3^sys_idNOT IN276c3c6b07020510aff5f1d08c1ed0fc,6f6c3c6b07020510aff5f1d08c1ed0f0,a76c3c6b07020510aff5f1d08c1ed0f4,b36c7c6b07020510aff5f1d08c1ed000"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">40f4b06707cec110aff5f1d08c1ed095</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>707c60e3-b525-470d-a3b0-4c6697be4ec6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>276c3c6b07020510aff5f1d08c1ed0fc</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>0db877dd-808b-41ee-b76d-cf6418a56303</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=276c3c6b07020510aff5f1d08c1ed0fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>276c3c6b07020510aff5f1d08c1ed0fc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>376c3c6b07020510aff5f1d08c1ed0ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <value>ffef646b078ec110aff5f1d08c1ed011</value>
+        <variable display_value="answer">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1f6c3c6b07020510aff5f1d08c1ed0e3^id=276c3c6b07020510aff5f1d08c1ed0fc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_b1f542d673331300612c273ffff6a7c7^id=276c3c6b07020510aff5f1d08c1ed0fc"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=276c3c6b07020510aff5f1d08c1ed0fc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=276c3c6b07020510aff5f1d08c1ed0fc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7028541f07464110aff5f1d08c1ed07a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>6f6c3c6b07020510aff5f1d08c1ed0f0</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>76ebf557-1621-447d-9891-6cd9aa5a5d1a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=6f6c3c6b07020510aff5f1d08c1ed0f0"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1f6c3c6b07020510aff5f1d08c1ed0e3^id=6f6c3c6b07020510aff5f1d08c1ed0f0"/>
+    <sys_element_mapping action="delete_multiple" query="id=6f6c3c6b07020510aff5f1d08c1ed0f0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>6f6c3c6b07020510aff5f1d08c1ed0f0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>2b6c3c6b07020510aff5f1d08c1ed0f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{6a057283-67cd-43f5-9045-4ff8f3f46cb7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=6f6c3c6b07020510aff5f1d08c1ed0f0"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f6c3c6b07020510aff5f1d08c1ed0f0"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">c8f4b06707cec110aff5f1d08c1ed08c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table display_value="Fish Tank Maintenance">b5a070eb078ec110aff5f1d08c1ed031</decision_table>
+        <decision_table_inputs/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Make a decision">578e90270b2313009002cab937673a7d</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>76ebf557-1621-447d-9891-6cd9aa5a5d1a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>a76c3c6b07020510aff5f1d08c1ed0f4</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>707c60e3-b525-470d-a3b0-4c6697be4ec6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=a76c3c6b07020510aff5f1d08c1ed0f4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a76c3c6b07020510aff5f1d08c1ed0f4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>276c3c6b07020510aff5f1d08c1ed0fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <value>sys_choice</value>
+        <variable display_value="Answer Table">4cbdbf94c35823002841b63b12d3aeb6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a76c3c6b07020510aff5f1d08c1ed0f4</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>636c3c6b07020510aff5f1d08c1ed0fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <value>run_all</value>
+        <variable display_value="Execution Approach">8c6638af0b2313009002cab937673a3f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a76c3c6b07020510aff5f1d08c1ed0f4</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>6f6c3c6b07020510aff5f1d08c1ed0fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <value>Is water change required</value>
+        <variable display_value="Decision Label">2d6a2ca70b2313009002cab937673aff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a76c3c6b07020510aff5f1d08c1ed0f4</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>ab6c3c6b07020510aff5f1d08c1ed0fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <value>b5a070eb078ec110aff5f1d08c1ed031</value>
+        <variable display_value="Decision Table">a9a0bc2b0b2313009002cab937673ac6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>a76c3c6b07020510aff5f1d08c1ed0f4</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>e76c3c6b07020510aff5f1d08c1ed0fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Include Otherwise">346b30a30b6313009002cab937673a5e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a76c3c6b07020510aff5f1d08c1ed0f4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>answer_table</field>
+        <id>a76c3c6b07020510aff5f1d08c1ed0f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>a76c3c6b07020510aff5f1d08c1ed0f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_label</field>
+        <id>a76c3c6b07020510aff5f1d08c1ed0f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>ef6c3c6b07020510aff5f1d08c1ed0f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>decision_table</field>
+        <id>a76c3c6b07020510aff5f1d08c1ed0f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>2f6c3c6b07020510aff5f1d08c1ed0f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>execution</field>
+        <id>a76c3c6b07020510aff5f1d08c1ed0f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>e36c3c6b07020510aff5f1d08c1ed0f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>include_otherwise</field>
+        <id>a76c3c6b07020510aff5f1d08c1ed0f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>6b6c3c6b07020510aff5f1d08c1ed0f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>u_tank</field>
+        <id>a76c3c6b07020510aff5f1d08c1ed0f4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>e76c3c6b07020510aff5f1d08c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:24</sys_updated_on>
+        <table>var__m_sys_decision_input_b5a070eb078ec110aff5f1d08c1ed031</table>
+        <value>{{76ebf557-1621-447d-9891-6cd9aa5a5d1a.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1f6c3c6b07020510aff5f1d08c1ed0e3^id=a76c3c6b07020510aff5f1d08c1ed0f4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_578e90270b2313009002cab937673a7d^id=a76c3c6b07020510aff5f1d08c1ed0f4"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=a76c3c6b07020510aff5f1d08c1ed0f4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a76c3c6b07020510aff5f1d08c1ed0f4"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">5b86746b07cec110aff5f1d08c1ed0fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <logic_definition display_value="Decision">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>707c60e3-b525-470d-a3b0-4c6697be4ec6</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:24</sys_created_on>
+        <sys_id>b36c7c6b07020510aff5f1d08c1ed000</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-05 09:04:26</sys_updated_on>
+        <ui_id>951b5481-8543-4028-8b0d-36b850569429</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b36c7c6b07020510aff5f1d08c1ed000"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_1f6c3c6b07020510aff5f1d08c1ed0e3^id=b36c7c6b07020510aff5f1d08c1ed000"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_logic_input_b1f542d673331300612c273ffff6a7c7^id=b36c7c6b07020510aff5f1d08c1ed000"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b36c7c6b07020510aff5f1d08c1ed000"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b36c7c6b07020510aff5f1d08c1ed000"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1f6c3c6b07020510aff5f1d08c1ed0e3^sys_idNOT IN2f6c3c6b07020510aff5f1d08c1ed0ea"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=6492fc18-33d1-4bee-8c96-dd55fab44f3e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Fish Tank Maintenance Flow">1f6c3c6b07020510aff5f1d08c1ed0e3</model>
+        <model_id>1f6c3c6b07020510aff5f1d08c1ed0e3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_1f6c3c6b07020510aff5f1d08c1ed0e3</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:23</sys_created_on>
+        <sys_id>2f6c3c6b07020510aff5f1d08c1ed0ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>variable</sys_name>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name>sys_hub_flow_variable_2f6c3c6b07020510aff5f1d08c1ed0ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-11 07:11:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1f6c3c6b07020510aff5f1d08c1ed0e3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>25a6181b07464110aff5f1d08c1ed071</sys_id>
+        <latest_snapshot>1f6c3c6b07020510aff5f1d08c1ed0e3</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=25a6181b07464110aff5f1d08c1ed071^sys_idNOT INd47c7c6b07020510aff5f1d08c1ed0c9"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"d47c7c6b07020510aff5f1d08c1ed0c9","name":"plan","plan_signature":null}}</plan>
+        <plan_id>25a6181b07464110aff5f1d08c1ed071</plan_id>
+        <snapshot>1f6c3c6b07020510aff5f1d08c1ed0e3</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-11 07:11:27</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d47c7c6b07020510aff5f1d08c1ed0c9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-12 08:33:19</sys_updated_on>
+        <trigger display_value="">587c7c6b07020510aff5f1d08c1ed0b9</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=25a6181b07464110aff5f1d08c1ed071"/>
+</record_update>

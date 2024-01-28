@@ -1,0 +1,1314 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>vf_send_email_via_mailjet</internal_name>
+        <label_cache>[{"name":"{{step[6a1bdf7e-6d01-48fb-b8c1-251c1bc71730].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6a1bdf7e-6d01-48fb-b8c1-251c1bc71730].result}}","label":"step➛Script step➛Result","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master_snapshot>6c15151b076ad110aff5f1d08c1ed038</master_snapshot>
+        <name>(VF) Send email via Mailjet</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-19 06:30:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>bbe3044f07261110aff5f1d08c1ed014</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>(VF) Send email via Mailjet</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_bbe3044f07261110aff5f1d08c1ed014</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:11:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>bbe3044f07261110aff5f1d08c1ed014</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>3e05911b076ad110aff5f1d08c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">6605911b076ad110aff5f1d08c1ed091</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>bbe3044f07261110aff5f1d08c1ed014</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>fe05911b076ad110aff5f1d08c1ed0d1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:07</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD6a05911b336ad11060938baeafcb3087":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD6a05911b336ad11060938baeafcb3087.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d6f3232b-145d-483f-9199-b91d518b7cd6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD6a05911b336ad11060938baeafcb3087\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">2a05911b076ad110aff5f1d08c1ed08b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>result</field>
+        <id>bbe3044f07261110aff5f1d08c1ed014</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>3605911b076ad110aff5f1d08c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</table>
+        <value>{{step[6a1bdf7e-6d01-48fb-b8c1-251c1bc71730].result}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>bbe3044f07261110aff5f1d08c1ed014</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>ba05911b076ad110aff5f1d08c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>bbe3044f07261110aff5f1d08c1ed014</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>f605911b076ad110aff5f1d08c1ed0d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <table>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=bbe3044f07261110aff5f1d08c1ed014^sys_idNOT IN46055157076ad110aff5f1d08c1ed0cd"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</action>
+        <cid>6a1bdf7e-6d01-48fb-b8c1-251c1bc71730</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:58</sys_created_on>
+        <sys_id>46055157076ad110aff5f1d08c1ed0cd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:11:11</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=46055157076ad110aff5f1d08c1ed0cd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>46055157076ad110aff5f1d08c1ed0cd</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:59</sys_created_on>
+        <sys_id>2205911b076ad110aff5f1d08c1ed085</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:11:11</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  	try { 
+         var r = new sn_ws.RESTMessageV2('x_293046_fish_main.Mailjet Email', 'Send Email');
+         r.setStringParameterNoEscape('message', gs.getProperty('vf.mailjet.message') );
+
+         var toEmails = JSON.parse(gs.getProperty('vf.mailjet.to_email'));
+         r.setStringParameterNoEscape('to_emails', JSON.stringify(toEmails));
+
+         r.setStringParameterNoEscape('from_email', gs.getProperty('vf.mailjet.from_email'));
+
+         var response = r.execute();
+         var responseBody = response.getBody();
+         var httpStatus = response.getStatusCode();
+
+         outputs.result = responseBody;
+    }
+  catch(ex) {
+    var message = ex.message;
+    gs.error("VF: There was error sending email using Mailjet: " + message)
+  }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>46055157076ad110aff5f1d08c1ed0cd</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:59</sys_created_on>
+        <sys_id>6605911b076ad110aff5f1d08c1ed084</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:02:59</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_46055157076ad110aff5f1d08c1ed0cd^id=46055157076ad110aff5f1d08c1ed0cd"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=46055157076ad110aff5f1d08c1ed0cd"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=46055157076ad110aff5f1d08c1ed0cd"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=46055157076ad110aff5f1d08c1ed0cd^sys_idNOT IN5605911b076ad110aff5f1d08c1ed078"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=17d10149-4f3e-4c27-9388-eeacb71762b2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Result</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">46055157076ad110aff5f1d08c1ed0cd</model>
+        <model_id>46055157076ad110aff5f1d08c1ed0cd</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_46055157076ad110aff5f1d08c1ed0cd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:58</sys_created_on>
+        <sys_id>5605911b076ad110aff5f1d08c1ed078</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:02:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=46055157076ad110aff5f1d08c1ed0cd"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_46055157076ad110aff5f1d08c1ed0cd^sys_idNOT IN6605911b076ad110aff5f1d08c1ed07f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_46055157076ad110aff5f1d08c1ed0cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:59</sys_created_on>
+        <sys_id>6605911b076ad110aff5f1d08c1ed07f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:02:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_hub_action_output action="delete_multiple" query="model=bbe3044f07261110aff5f1d08c1ed014^sys_idNOT IN2a05911b076ad110aff5f1d08c1ed08b,6605911b076ad110aff5f1d08c1ed091,7e05911b076ad110aff5f1d08c1ed098"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD6a05911b336ad11060938baeafcb3087,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d6f3232b-145d-483f-9199-b91d518b7cd6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</model>
+        <model_id>bbe3044f07261110aff5f1d08c1ed014</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:59</sys_created_on>
+        <sys_id>2a05911b076ad110aff5f1d08c1ed08b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:02:59</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=2a05911b076ad110aff5f1d08c1ed08b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2a05911b076ad110aff5f1d08c1ed08b"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f7328e69-3ce4-41f2-9f91-05cbe0b17eef,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</model>
+        <model_id>bbe3044f07261110aff5f1d08c1ed014</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:59</sys_created_on>
+        <sys_id>6605911b076ad110aff5f1d08c1ed091</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6605911b076ad110aff5f1d08c1ed091"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6605911b076ad110aff5f1d08c1ed091"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=18e9d9cf-aa8c-49ff-9e93-b90b3454fb39</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Result</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</model>
+        <model_id>bbe3044f07261110aff5f1d08c1ed014</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>7e05911b076ad110aff5f1d08c1ed098</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=7e05911b076ad110aff5f1d08c1ed098"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7e05911b076ad110aff5f1d08c1ed098"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=bbe3044f07261110aff5f1d08c1ed014^sys_idNOT IN3205911b076ad110aff5f1d08c1ed0d4"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>3205911b076ad110aff5f1d08c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=3205911b076ad110aff5f1d08c1ed0d4"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014^sys_idNOT INa605911b076ad110aff5f1d08c1ed090,be05911b076ad110aff5f1d08c1ed097,f205911b076ad110aff5f1d08c1ed0ce"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:02:59</sys_created_on>
+        <sys_id>a605911b076ad110aff5f1d08c1ed090</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:02:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>be05911b076ad110aff5f1d08c1ed097</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:00</sys_created_on>
+        <sys_id>f205911b076ad110aff5f1d08c1ed0ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_bbe3044f07261110aff5f1d08c1ed014"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=bbe3044f07261110aff5f1d08c1ed014^sys_idNOT IN2115551b076ad110aff5f1d08c1ed086"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2115551b076ad110aff5f1d08c1ed086","name":"plan","plan_signature":null}}</plan>
+        <snapshot>5fe6915f076ad110aff5f1d08c1ed073</snapshot>
+        <sys_class_name>sys_hub_action_plan</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2115551b076ad110aff5f1d08c1ed086</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:11:15</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>vf_send_email_via_mailjet</internal_name>
+        <label_cache>[{"name":"{{step[6a1bdf7e-6d01-48fb-b8c1-251c1bc71730].variable}}","label":"step➛Script step➛variable","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[6a1bdf7e-6d01-48fb-b8c1-251c1bc71730].result}}","label":"step➛Script step➛Result","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"sourceId":"","sourceUiUniqueId":"","sourceType":""}}]</label_cache>
+        <master>true</master>
+        <name>(VF) Send email via Mailjet</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="(VF) Send email via Mailjet">bbe3044f07261110aff5f1d08c1ed014</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6c15151b076ad110aff5f1d08c1ed038</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:08</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_variable_value action="delete_multiple" query="document_key=6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6c15151b076ad110aff5f1d08c1ed038</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>0115151b076ad110aff5f1d08c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">3c15151b076ad110aff5f1d08c1ed0da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>6c15151b076ad110aff5f1d08c1ed038</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>c115151b076ad110aff5f1d08c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FD7015151b156ad110775e7d9eea3c5d7c":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD7015151b156ad110775e7d9eea3c5d7c.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d6f3232b-145d-483f-9199-b91d518b7cd6\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD7015151b156ad110775e7d9eea3c5d7c\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b815151b076ad110aff5f1d08c1ed0d5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>result</field>
+        <id>6c15151b076ad110aff5f1d08c1ed038</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>0915151b076ad110aff5f1d08c1ed0f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</table>
+        <value>{{step[6a1bdf7e-6d01-48fb-b8c1-251c1bc71730].result}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>6c15151b076ad110aff5f1d08c1ed038</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>8d15151b076ad110aff5f1d08c1ed0f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>6c15151b076ad110aff5f1d08c1ed038</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>c915151b076ad110aff5f1d08c1ed0f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <table>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=6c15151b076ad110aff5f1d08c1ed038^sys_idNOT IN7015151b076ad110aff5f1d08c1ed03d"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="(VF) Send email via Mailjet">6c15151b076ad110aff5f1d08c1ed038</action>
+        <cid>6a1bdf7e-6d01-48fb-b8c1-251c1bc71730</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:08</sys_created_on>
+        <sys_id>7015151b076ad110aff5f1d08c1ed03d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:11:13</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7015151b076ad110aff5f1d08c1ed03d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7015151b076ad110aff5f1d08c1ed03d</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:08</sys_created_on>
+        <sys_id>bc15151b076ad110aff5f1d08c1ed079</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:11:13</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+
+  	try { 
+         var r = new sn_ws.RESTMessageV2('x_293046_fish_main.Mailjet Email', 'Send Email');
+         r.setStringParameterNoEscape('message', gs.getProperty('vf.mailjet.message') );
+
+         var toEmails = JSON.parse(gs.getProperty('vf.mailjet.to_email'));
+         r.setStringParameterNoEscape('to_emails', JSON.stringify(toEmails));
+
+         r.setStringParameterNoEscape('from_email', gs.getProperty('vf.mailjet.from_email'));
+
+         var response = r.execute();
+         var responseBody = response.getBody();
+         var httpStatus = response.getStatusCode();
+
+         outputs.result = responseBody;
+    }
+  catch(ex) {
+    var message = ex.message;
+    gs.error("VF: There was error sending email using Mailjet: " + message)
+  }
+
+})(inputs, outputs);
+</value>
+        <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7015151b076ad110aff5f1d08c1ed03d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:08</sys_created_on>
+        <sys_id>f815151b076ad110aff5f1d08c1ed079</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_7015151b076ad110aff5f1d08c1ed03d^id=7015151b076ad110aff5f1d08c1ed03d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=7015151b076ad110aff5f1d08c1ed03d"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7015151b076ad110aff5f1d08c1ed03d"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7015151b076ad110aff5f1d08c1ed03d^sys_idNOT INb815151b076ad110aff5f1d08c1ed072"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=17d10149-4f3e-4c27-9388-eeacb71762b2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Result</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7015151b076ad110aff5f1d08c1ed03d</model>
+        <model_id>7015151b076ad110aff5f1d08c1ed03d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_7015151b076ad110aff5f1d08c1ed03d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:08</sys_created_on>
+        <sys_id>b815151b076ad110aff5f1d08c1ed072</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7015151b076ad110aff5f1d08c1ed03d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_7015151b076ad110aff5f1d08c1ed03d^sys_idNOT IN3415151b076ad110aff5f1d08c1ed076"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_7015151b076ad110aff5f1d08c1ed03d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:08</sys_created_on>
+        <sys_id>3415151b076ad110aff5f1d08c1ed076</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:08</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_hub_action_output action="delete_multiple" query="model=6c15151b076ad110aff5f1d08c1ed038^sys_idNOT IN3c15151b076ad110aff5f1d08c1ed0da,4915151b076ad110aff5f1d08c1ed0e1,b815151b076ad110aff5f1d08c1ed0d5"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=f7328e69-3ce4-41f2-9f91-05cbe0b17eef,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="(VF) Send email via Mailjet">6c15151b076ad110aff5f1d08c1ed038</model>
+        <model_id>6c15151b076ad110aff5f1d08c1ed038</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>3c15151b076ad110aff5f1d08c1ed0da</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3c15151b076ad110aff5f1d08c1ed0da"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3c15151b076ad110aff5f1d08c1ed0da"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=18e9d9cf-aa8c-49ff-9e93-b90b3454fb39</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>result</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Result</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="(VF) Send email via Mailjet">6c15151b076ad110aff5f1d08c1ed038</model>
+        <model_id>6c15151b076ad110aff5f1d08c1ed038</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>4915151b076ad110aff5f1d08c1ed0e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=4915151b076ad110aff5f1d08c1ed0e1"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4915151b076ad110aff5f1d08c1ed0e1"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD7015151b156ad110775e7d9eea3c5d7c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d6f3232b-145d-483f-9199-b91d518b7cd6</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="(VF) Send email via Mailjet">6c15151b076ad110aff5f1d08c1ed038</model>
+        <model_id>6c15151b076ad110aff5f1d08c1ed038</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>b815151b076ad110aff5f1d08c1ed0d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b815151b076ad110aff5f1d08c1ed0d5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b815151b076ad110aff5f1d08c1ed0d5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=6c15151b076ad110aff5f1d08c1ed038^sys_idNOT INc115151b076ad110aff5f1d08c1ed0f7"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="(VF) Send email via Mailjet">6c15151b076ad110aff5f1d08c1ed038</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>c115151b076ad110aff5f1d08c1ed0f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=c115151b076ad110aff5f1d08c1ed0f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038^sys_idNOT IN7c15151b076ad110aff5f1d08c1ed0d9,8915151b076ad110aff5f1d08c1ed0e0,8915151b076ad110aff5f1d08c1ed0f1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>7c15151b076ad110aff5f1d08c1ed0d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>8915151b076ad110aff5f1d08c1ed0e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>result</element>
+        <help/>
+        <hint/>
+        <label>Result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-20 07:03:09</sys_created_on>
+        <sys_id>8915151b076ad110aff5f1d08c1ed0f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fish Maintenance" source="x_293046_fish_main">b8d8441707c24110aff5f1d08c1ed097</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fish Maintenance">b8d8441707c24110aff5f1d08c1ed097</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-20 07:03:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_6c15151b076ad110aff5f1d08c1ed038"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>bbe3044f07261110aff5f1d08c1ed014</sys_id>
+        <latest_snapshot>6c15151b076ad110aff5f1d08c1ed038</latest_snapshot>
+        <compiler_build>glide-sandiego-12-22-2021__patch0-hotfix1-02-01-2022_02-01-2022_2323.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>
